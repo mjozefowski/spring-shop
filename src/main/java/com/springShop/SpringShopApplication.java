@@ -11,11 +11,17 @@ import org.springframework.web.bind.annotation.ResponseBody;
 public class SpringShopApplication {
 	
 	
-//    @RequestMapping("/hello")
-//    @ResponseBody
-//    public String mainPage() {
-//        return "Dzień dobry !";
-//    }
+    @RequestMapping("/hello")
+    @ResponseBody
+    public String dziendobry() {
+        return "Dzień dobry !";
+    }
+    
+    @RequestMapping("/goodbay")
+    @ResponseBody
+    public String dobranoc() {
+        return "Dobranoc !";
+    }
 	public static void main(String[] args) {
 		SpringApplication.run(SpringShopApplication.class, args);
 	}
