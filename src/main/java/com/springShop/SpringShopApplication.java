@@ -17,7 +17,7 @@ public class SpringShopApplication {
         return "Dzień dobry !";
     }
     
-    @RequestMapping("/goodbay")
+    @RequestMapping("/goodbye")
     @ResponseBody
     public String dobranoc() {
         return "Dobranoc !";
